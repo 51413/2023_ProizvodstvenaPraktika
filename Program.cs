@@ -7,6 +7,7 @@ namespace Project_ProizvPraktika_Xz11_
     {
         static void Main(string[] args)
         {
+            //https://www.websitebuilderinsider.com/how-do-you-make-a-clickable-button-in-figma/
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.Unicode;
             //Код за теста:
@@ -23,8 +24,8 @@ namespace Project_ProizvPraktika_Xz11_
             else greshki.Add(br);
             br++;
             Console.WriteLine("2. Изберете подходящото число или цифра.");
-            Console.WriteLine("5; 3; 0; 29; 23; 1;");
-            VerniOtg[1] = "1";
+            Console.WriteLine("235; 5; 259; 311; 198; 298;");
+            VerniOtg[1] = "259";
             VsichkiOtg[1] = Console.ReadLine();
             if (VsichkiOtg[1] == VerniOtg[1]) result++;
             else greshki.Add(br);
