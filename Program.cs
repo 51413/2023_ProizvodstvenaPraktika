@@ -7,10 +7,8 @@ namespace Project_ProizvPraktika_Xz11_
     {
         static void Main(string[] args)
         {
-            //https://www.websitebuilderinsider.com/how-do-you-make-a-clickable-button-in-figma/
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.Unicode;
-            //Код за теста:
             int result = 0;
             int br = 1;
             List<int> greshki = new List<int>();
@@ -18,9 +16,9 @@ namespace Project_ProizvPraktika_Xz11_
             string[] VsichkiOtg = new string[3];
             Console.WriteLine("1. Изберете подходящото за постаяне в празното пространство изображение.");
             Console.WriteLine("A) B) C) D) E) F)");
-            VerniOtg[0] = "E";
+            VerniOtg[0] = "A";
             VsichkiOtg[0] = Console.ReadLine();
-            if (VsichkiOtg[0] == VerniOtg[0] || VsichkiOtg[0] == "E)") result++;
+            if (VsichkiOtg[0] == VerniOtg[0] || VsichkiOtg[0] == "A)") result++;
             else greshki.Add(br);
             br++;
             Console.WriteLine("2. Изберете подходящото число или цифра.");
@@ -31,7 +29,7 @@ namespace Project_ProizvPraktika_Xz11_
             else greshki.Add(br);
             br++;
             Console.WriteLine("3. Въведете отговор, който считате за подходящ.");
-            Console.WriteLine("528173 - дърво; 11122924 - ключ; 1017262 - ?");
+            Console.WriteLine("528173 - дърво; 11122924 - ключ; 18161213 - ?");
             VerniOtg[2] = "йрщб";
             VsichkiOtg[2] = Console.ReadLine();
             if (VsichkiOtg[2] == VerniOtg[2]) result++;
