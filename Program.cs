@@ -14,7 +14,7 @@ namespace Project_ProizvPraktika_Xz11_
             List<int> greshki = new List<int>();
             string[] VerniOtg = new string[3];
             string[] VsichkiOtg = new string[3];
-            Console.WriteLine("1. Изберете подходящото за постаяне в празното пространство изображение.");
+            Console.WriteLine("1. Изберете подходящото за поставяне в празното пространство изображение.");
             Console.WriteLine("A) B) C) D) E) F)");
             VerniOtg[0] = "A";
             VsichkiOtg[0] = Console.ReadLine();
