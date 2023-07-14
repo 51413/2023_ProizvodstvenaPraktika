@@ -30,7 +30,7 @@ namespace Project_ProizvPraktika_Xz11_
             br++;
             Console.WriteLine("3. Въведете отговор, който считате за подходящ.");
             Console.WriteLine("528173 - дърво; 11122924 - ключ; 18161213 - ?");
-            VerniOtg[2] = "йрщб";
+            VerniOtg[2] = "сплав";
             VsichkiOtg[2] = Console.ReadLine();
             if (VsichkiOtg[2] == VerniOtg[2]) result++;
             else greshki.Add(br);
